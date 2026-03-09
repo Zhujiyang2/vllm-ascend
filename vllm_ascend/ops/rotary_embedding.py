@@ -21,6 +21,8 @@ from vllm.config import get_current_vllm_config
 from vllm.forward_context import get_forward_context
 import torch
 import torch_npu
+from vllm.config import get_current_vllm_config
+from vllm.forward_context import get_forward_context
 from vllm.model_executor.layers.rotary_embedding import (
     DeepseekScalingRotaryEmbedding,
     MRotaryEmbedding,
